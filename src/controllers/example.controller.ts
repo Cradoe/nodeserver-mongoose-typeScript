@@ -3,7 +3,7 @@ import HttpException from "../utils/HttpException.utils";
 import responseCode from "../utils/responseCode.utils";
 // import ExampleModel from "../models/example.model";
 
-class SellerController {
+class ExampleController {
   /**
    * @description -
    * @param res
@@ -39,4 +39,4 @@ class SellerController {
   };
 }
 
-export default new SellerController();
+export default new ExampleController();
